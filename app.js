@@ -22,17 +22,36 @@ const Header= () => {
 const RestaurantCard= () =>{
   return (
     <div className="res-card">
-      <img alt="res-logo"
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxHmXOo0D7yv6G6F8FfA8cjLFpO-JBbRWhytUaWast2QUiHyz-GvbnCgo6rNbswi8HQqQ&usqp=CAU"></img>
+      
+      <img 
+      className="rest-logo"
+      alt="res-logo"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShaahDkIzR92JmhOcnNHcsnR87FsHI8KITbVXGllrnhHd423mT6cAVbEN60tO40JniQ1I" width="200"></img>
+     
       <h3>Meghna Foods</h3>
+      <h4>Mexican,Thai,Chinese</h4>
+      <h4>4.4 stars</h4>
+      <h4>38 minutes</h4>
     </div>
   )
 }
 const Body = () => {
   return(
     <div className="body">
-      <div classname="Search">Search</div>
+      <div classname="search">Search</div>
       <div className="res-container">
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
         <RestaurantCard/>
       </div>
     </div>
