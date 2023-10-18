@@ -1,0 +1,2 @@
+export const CDN_URL="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
+export const LOGO_URL="https://img.pikbest.com/png-images/20210621/creative-and-stylish-vintage-french-fries-with-burger-fast-food-graphic-design_5999120.png!w700wp"
